@@ -49,12 +49,10 @@ form = """
 
       <!-- create your form here -->
         <form action="/" method="post">
-          <label for="rotate">Rotate by: </label>
-          <input id="rotate" type="text" name="rot" />
-      <br><br>
-          <input type="text" name="text" />
-      <br>
-          <input type="Submit" />
+          <label for="rot">Rotate by: </label>
+          <input type="text" value="0" name="rot" />
+          <textarea name="text">{0}</textarea>
+          <input type="submit" value="Encrypt It!" />
         </form>
     </body>
 
